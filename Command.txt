@@ -1,0 +1,62 @@
+seeker
+
+Accurately Locate Smartphones using Social Engineering
+
+Templates
+
+Available Templates :
+
+1 ) NearYou
+2 ) Google Drive
+3 ) WhatsApp 
+4 ) Telegram
+5 ) Zoom 
+6 ) Google reCAPTCHA 
+
+Tested On :
+
+1 ) Kali Linux
+2 ) BlackArch Linux
+3 ) Ubuntu
+4 ) Kali Nethunter
+5 ) Termux
+6 ) Parrot OS
+7 ) OSX - Monterey v.12.0.1
+
+Installation
+
+Kali Linux / Arch Linux / Ubuntu / Parrot OS / Termux👇👇
+
+git clone https://github.com/thewhiteh4t/seeker.git
+cd seeker/
+chmod +x install.sh
+./install.sh
+
+BlackArch Linux👇👇
+
+sudo pacman -S seeker
+Docker
+docker pull thewhiteh4t/seeker
+
+OSX
+
+git clone https://github.com/thewhiteh4t/seeker.git
+cd seeker/
+python3 seeker.py
+
+
+In order to run in tunnel mode, install ngrok by running this command in the terminal:
+
+brew install ngrok/ngrok/ngrok
+
+ngrok http 8080
+
+
+Usage
+
+python3 seeker.py -h
+
+usage: seeker.py [-h] [-k KML] [-p PORT] [-u] [-v]
+
+options:
+  -h, --help            show this help message and exit
